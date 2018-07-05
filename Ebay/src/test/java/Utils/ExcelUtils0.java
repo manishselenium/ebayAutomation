@@ -8,7 +8,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class excelUtils0 {
+public class ExcelUtils0 {
 
 	private static XSSFSheet ExcelWSheet;
 
@@ -19,7 +19,7 @@ public class excelUtils0 {
 	// This method is to set the File path and to open the Excel file, Pass Excel
 	// Path and Sheetname as Arguments to this method
 
-	public static void setExcelFile(String Path, String SheetName) throws Exception {
+	public static void SetExcelFile(String Path, String SheetName) throws Exception {
 
 		try {
 
@@ -32,6 +32,8 @@ public class excelUtils0 {
 			ExcelWBook = new XSSFWorkbook(ExcelFile);
 
 			ExcelWSheet = ExcelWBook.getSheet(SheetName);
+			
+			
 
 		} catch (Exception e) {
 
@@ -44,7 +46,7 @@ public class excelUtils0 {
 	// This method is to read the test data from the Excel cell, in this we are
 	// passing parameters as Row num and Col num
 
-	public static String getCellData(int RowNum, int ColNum) throws Exception {
+	public static String GetCellData(int RowNum, int ColNum) throws Exception {
 
 		try {
 

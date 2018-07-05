@@ -3,10 +3,10 @@ package Utils;
 import org.apache.poi.ss.usermodel.*;
 import java.io.File;
 
-public class excelUtils1 {
+public class ExcelUtils1 {
 	public static final String SAMPLE_XLSX_FILE_PATH = "./Data.xlsx";
 
-	public static String getCellData(int RowNum, int ColNum) throws Exception {
+	public static String GetCellData(int RowNum, int ColNum) throws Exception {
 
 		Workbook workbook = WorkbookFactory.create(new File(SAMPLE_XLSX_FILE_PATH));
 

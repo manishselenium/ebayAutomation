@@ -4,12 +4,12 @@ import org.openqa.selenium.By;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 
-public class searchPage {
+public class SearchPage {
 	By itemDisc = By.id("com.ebay.mobile:id/textview_item_name");
 	By itemPriceEle = By.id("com.ebay.mobile:id/textview_item_price");
 
 	@SuppressWarnings("rawtypes")
-	public String getTVDescription(AndroidDriver driver) throws Exception {
+	public String GetTVDescription(AndroidDriver driver) throws Exception {
 
 		MobileElement itemName = (MobileElement) driver.findElement(itemDisc);
 		String tvDesc = itemName.getText();
@@ -19,7 +19,7 @@ public class searchPage {
 	}
 
 	@SuppressWarnings("rawtypes")
-	public String getPriceDetails(AndroidDriver driver) {
+	public String GetPriceDetails(AndroidDriver driver) {
 
 		MobileElement itemPrice = (MobileElement) driver.findElement(itemPriceEle);
 		String tvPrice = itemPrice.getText();

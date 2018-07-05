@@ -2,48 +2,48 @@
 <testng-results skipped="0" failed="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="102661" started-at="2018-07-04T13:18:04Z" finished-at="2018-07-04T13:19:47Z">
+  <suite name="Default suite" duration-ms="108798" started-at="2018-07-05T12:15:49Z" finished-at="2018-07-05T12:17:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="102661" started-at="2018-07-04T13:18:04Z" finished-at="2018-07-04T13:19:47Z">
-      <class name="testSuit.testCasesTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testSuit.testCasesTest@61f8bee4]" name="setup" is-config="true" duration-ms="15333" started-at="2018-07-04T18:48:04Z" finished-at="2018-07-04T18:48:20Z">
+    <test name="Default test" duration-ms="108798" started-at="2018-07-05T12:15:49Z" finished-at="2018-07-05T12:17:38Z">
+      <class name="TestSuit.TestCasesTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestSuit.TestCasesTest@61f8bee4]" name="setup" is-config="true" duration-ms="16829" started-at="2018-07-05T17:45:49Z" finished-at="2018-07-05T17:46:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:testSuit.testCasesTest@61f8bee4]" name="Login" duration-ms="25141" started-at="2018-07-04T18:48:20Z" finished-at="2018-07-04T18:48:45Z">
+        <test-method status="PASS" signature="Login()[pri:0, instance:TestSuit.TestCasesTest@61f8bee4]" name="Login" duration-ms="26547" started-at="2018-07-05T17:46:06Z" finished-at="2018-07-05T17:46:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="SearchTV()[pri:0, instance:testSuit.testCasesTest@61f8bee4]" name="SearchTV" duration-ms="33318" started-at="2018-07-04T18:48:45Z" finished-at="2018-07-04T18:49:18Z">
+        <test-method status="PASS" signature="SearchTV()[pri:0, instance:TestSuit.TestCasesTest@61f8bee4]" name="SearchTV" duration-ms="29779" started-at="2018-07-05T17:46:33Z" finished-at="2018-07-05T17:47:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchTV -->
-        <test-method status="PASS" signature="NameAndDiscriptionComparison_OnSearchScreen()[pri:0, instance:testSuit.testCasesTest@61f8bee4]" name="NameAndDiscriptionComparison_OnSearchScreen" duration-ms="793" started-at="2018-07-04T18:49:18Z" finished-at="2018-07-04T18:49:19Z">
+        <test-method status="PASS" signature="NameAndDiscriptionComparison_OnSearchScreen()[pri:0, instance:TestSuit.TestCasesTest@61f8bee4]" name="NameAndDiscriptionComparison_OnSearchScreen" duration-ms="1227" started-at="2018-07-05T17:47:02Z" finished-at="2018-07-05T17:47:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NameAndDiscriptionComparison_OnSearchScreen -->
-        <test-method status="PASS" signature="PriceComparison_OnSearchScreen()[pri:0, instance:testSuit.testCasesTest@61f8bee4]" name="PriceComparison_OnSearchScreen" duration-ms="93" started-at="2018-07-04T18:49:19Z" finished-at="2018-07-04T18:49:19Z">
+        <test-method status="PASS" signature="PriceComparison_OnSearchScreen()[pri:0, instance:TestSuit.TestCasesTest@61f8bee4]" name="PriceComparison_OnSearchScreen" duration-ms="330" started-at="2018-07-05T17:47:04Z" finished-at="2018-07-05T17:47:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PriceComparison_OnSearchScreen -->
-        <test-method status="PASS" signature="MoveToCheckout()[pri:0, instance:testSuit.testCasesTest@61f8bee4]" name="MoveToCheckout" duration-ms="27290" started-at="2018-07-04T18:49:19Z" finished-at="2018-07-04T18:49:46Z">
+        <test-method status="PASS" signature="MoveToCheckout()[pri:0, instance:TestSuit.TestCasesTest@61f8bee4]" name="MoveToCheckout" duration-ms="33134" started-at="2018-07-05T17:47:04Z" finished-at="2018-07-05T17:47:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MoveToCheckout -->
-        <test-method status="PASS" signature="NameAndDiscriptionComparison_CheckOutScreen()[pri:0, instance:testSuit.testCasesTest@61f8bee4]" name="NameAndDiscriptionComparison_CheckOutScreen" duration-ms="187" started-at="2018-07-04T18:49:46Z" finished-at="2018-07-04T18:49:47Z">
+        <test-method status="PASS" signature="NameAndDiscriptionComparison_CheckOutScreen()[pri:0, instance:TestSuit.TestCasesTest@61f8bee4]" name="NameAndDiscriptionComparison_CheckOutScreen" duration-ms="194" started-at="2018-07-05T17:47:37Z" finished-at="2018-07-05T17:47:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NameAndDiscriptionComparison_CheckOutScreen -->
-        <test-method status="PASS" signature="PriceComparison_CheckOutScreen()[pri:0, instance:testSuit.testCasesTest@61f8bee4]" name="PriceComparison_CheckOutScreen" duration-ms="177" started-at="2018-07-04T18:49:47Z" finished-at="2018-07-04T18:49:47Z">
+        <test-method status="PASS" signature="PriceComparison_CheckOutScreen()[pri:0, instance:TestSuit.TestCasesTest@61f8bee4]" name="PriceComparison_CheckOutScreen" duration-ms="395" started-at="2018-07-05T17:47:37Z" finished-at="2018-07-05T17:47:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PriceComparison_CheckOutScreen -->
-        <test-method status="PASS" signature="compareTvDescription_to_CheckoutScreen()[pri:0, instance:testSuit.testCasesTest@61f8bee4]" name="compareTvDescription_to_CheckoutScreen" duration-ms="280" started-at="2018-07-04T18:49:47Z" finished-at="2018-07-04T18:49:47Z">
+        <test-method status="PASS" signature="compareTvDescription_to_CheckoutScreen()[pri:0, instance:TestSuit.TestCasesTest@61f8bee4]" name="compareTvDescription_to_CheckoutScreen" duration-ms="327" started-at="2018-07-05T17:47:38Z" finished-at="2018-07-05T17:47:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- compareTvDescription_to_CheckoutScreen -->
-      </class> <!-- testSuit.testCasesTest -->
+      </class> <!-- TestSuit.TestCasesTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
