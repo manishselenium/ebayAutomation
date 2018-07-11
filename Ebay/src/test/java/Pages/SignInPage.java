@@ -2,6 +2,7 @@ package Pages;
 
 import org.openqa.selenium.By;
 import Utils.ExcelUtils1;
+import Utils.WrapperForGenericMethods;
 import io.appium.java_client.android.AndroidDriver;
 
 public class SignInPage {
@@ -19,11 +20,13 @@ public class SignInPage {
 
 		String Username = ExcelUtils1.GetCellData(3, 0);
 		String Password = ExcelUtils1.GetCellData(3, 1);
-		driver.findElement(user).click();
-		driver.findElement(Email).sendKeys(Username);
-		driver.findElement(password).sendKeys(Password);
-		driver.findElement(signInButton).click();
-		driver.findElement(linkAccount).click();
+		WrapperForGenericMethods Action = new WrapperForGenericMethods();
+		Action.Click(driver, user);
+		Action.Sendkeys(driver, Email, Username);
+		Action.Sendkeys(driver, password, Password);
+		Action.Click(driver, signInButton);
+		Action.Click(driver, linkAccount);
+		
 
 	}
 }

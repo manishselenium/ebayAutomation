@@ -1,7 +1,9 @@
 package Pages;
 
 import org.openqa.selenium.By;
-import io.appium.java_client.MobileElement;
+
+import Utils.WrapperForGenericMethods;
+
 import io.appium.java_client.android.AndroidDriver;
 
 public class SearchPage {
@@ -11,8 +13,8 @@ public class SearchPage {
 	@SuppressWarnings("rawtypes")
 	public String GetTVDescription(AndroidDriver driver) throws Exception {
 
-		MobileElement itemName = (MobileElement) driver.findElement(itemDisc);
-		String tvDesc = itemName.getText();
+		WrapperForGenericMethods Action = new WrapperForGenericMethods();
+		String tvDesc = Action.GetText(driver, itemDisc);
 
 		return tvDesc;
 
@@ -21,8 +23,8 @@ public class SearchPage {
 	@SuppressWarnings("rawtypes")
 	public String GetPriceDetails(AndroidDriver driver) {
 
-		MobileElement itemPrice = (MobileElement) driver.findElement(itemPriceEle);
-		String tvPrice = itemPrice.getText();
+		WrapperForGenericMethods Action = new WrapperForGenericMethods();
+		String tvPrice = Action.GetText(driver, itemPriceEle);
 
 		return tvPrice;
 

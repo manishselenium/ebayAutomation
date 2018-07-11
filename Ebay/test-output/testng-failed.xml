@@ -5,7 +5,10 @@
     <classes>
       <class name="TestSuit.TestCasesTest">
         <methods>
-          <include name="PriceComparison_OnSearchScreen"/>
+          <include name="NameAndDiscriptionComparison_CheckOutScreen"/>
+          <include name="PriceComparison_CheckOutScreen"/>
+          <include name="MoveToCheckout"/>
+          <include name="compareTvDescription_to_CheckoutScreen"/>
           <include name="setup"/>
         </methods>
       </class> <!-- TestSuit.TestCasesTest -->
